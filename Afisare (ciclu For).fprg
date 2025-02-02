@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Afisare (ciclu For)"/>
+        <attribute name="authors" value="laure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-02 07:10:58 PM"/>
+        <attribute name="created" value="bGF1cmU7REVTS1RPUC1HVUg1VTdNOzIwMjMtMTItMDc7MTA6MDc6MDQgQU07Mjg3Ng=="/>
+        <attribute name="edited" value="bGF1cmU7REVTS1RPUC1HVUg1VTdNOzIwMjUtMDItMDI7MDc6MTA6NTggUE07MjszMDA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot; &quot; &amp;i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
