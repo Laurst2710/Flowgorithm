@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Calcul Factorial"/>
+        <attribute name="authors" value="laure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-02-02 07:54:14 PM"/>
+        <attribute name="created" value="bGF1cmU7REVTS1RPUC1HVUg1VTdNOzIwMjMtMTItMDc7MTE6MTM6MzUgQU07Mjg3OA=="/>
+        <attribute name="edited" value="bGF1cmU7REVTS1RPUC1HVUg1VTdNOzIwMjUtMDItMDI7MDc6NTQ6MTQgUE07MjszMDA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Se d&#259; num&#259;rul natural nenul n. S&#259; se afi&#537;eze valorile lui 1!, 2!, &#8230;, n!, unde prin x! s-a notat produsul primelor x numere naturale nenule, deci x! = 1*2*3*...*x.&#13;&#10;"/>
+            <declare name="i, n, factorial" type="Integer" array="False" size=""/>
+            <output expression="&quot;n?&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="factorial" expression="1"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="factorial" expression="factorial *i"/>
+                <output expression="&quot; Valoarea lui &quot; &amp;i &amp;&quot;factorial este&quot; &amp;factorial" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
